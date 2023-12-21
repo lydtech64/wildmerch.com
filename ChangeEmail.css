@@ -1,0 +1,102 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('BG-1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden; /* Ensure the body takes full height */
+}
+
+.box {
+    position: relative;
+    overflow: hidden;
+}
+
+.box .rectangle {
+    background-color: #903a36;
+    box-shadow: 0px 0px 40px 40px #00000066;
+    height: 100%;
+    left: 1.4%;
+    position: fixed;
+    top: 0;
+    width: 97%;
+    z-index: 2;
+}
+
+.content {
+    position: relative;
+    margin-top: 15%; /* Adjusted margin-top to move content down */
+    padding: 3%;
+    z-index: 3;
+    display: flex;
+}
+
+.content1 {
+    padding-left: 4%;
+}
+
+.content2 {
+    text-align: right;
+    flex: 1;
+    padding-right: 4%;
+}
+
+.account-heading {
+    position: absolute;
+    left: 7%;
+    top: 22%;
+    z-index: 4;
+}
+
+.RouterLink {
+    color: #f08b2de6;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-weight: bold;
+    width: 48%;
+}
+
+.value {
+    width: 48%;
+    margin-left: 4%;
+}
+
+.rectangleline1 {
+    background-color: #f19408ec;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 5px;
+    position: absolute;
+    width: 89%;
+    border-radius: 22px;
+    top: 40%;
+    left: 5%;
+    z-index: 5;
+}
+
+.rectangleline2 {
+    background-color: #f19408ec;
+    box-shadow: 4px 4px 0px #00000040;
+    height: 100%;
+    position: absolute;
+    width: 5px;
+    border-radius: 22px;
+    top: 50%;
+    left: 20%;
+    z-index: 5;
+}
